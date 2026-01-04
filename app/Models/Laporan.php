@@ -8,9 +8,9 @@ class Laporan extends Model
 {
     protected $table = 'laporan';
     protected $primaryKey = 'id_laporan';
-    public $incrementing = false; // Karena ID berupa string (Contoh: L1234)
+    public $incrementing = false;
     protected $keyType = 'string';
-    public $timestamps = false; // Sesuai struktur SQL Anda
+    public $timestamps = false;
 
     protected $fillable = [
         'id_laporan',
